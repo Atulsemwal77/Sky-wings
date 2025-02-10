@@ -1,10 +1,10 @@
-// import img from '../../assets/products/image.png';
+import img from '../../assets/products/image.png';
 
 const Cont5 = () => {
   const profile = Array(8).fill({
     text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit quidem culpa iste possimus minus ad ipsum expedita sed.',
     // image: img,
-    image: "src/assets/products/Image.png",
+    image: img,
     name: 'Samantha Payne',
     ac: '@SamPanye12'
   });
@@ -37,7 +37,7 @@ const Cont5 = () => {
         ))}
       </div>
     </div>
-    <img src="src/assets/products/Image.png" alt="fg;ldfskg;l" />
+    
     </>
   );
 };
