@@ -51,9 +51,10 @@ const Cont1 = () => {
         </div>
 
       </div> */}
-      <Cont1A></Cont1A>  
+      {/* <Cont1A></Cont1A>   */}
 
-      <div className=" bg-[#F9F5FF] sticky top-0">
+      {/* <div className=" bg-[#F9F5FF] sticky top-0"> */}
+      <div className=" bg-gray-100  sticky top-0">
         <form
           action="/search"
           method="GET"
@@ -99,6 +100,7 @@ const Cont1 = () => {
           </button>
         </form>
       </div>
+      <Cont1A></Cont1A>
     </>
   );
 };
