@@ -1,16 +1,14 @@
-import Cont5 from './componentes/Home/cont5';
-
-function Contact() {
-  return (
-    <>
-    
-    
+import bg from '../assets/products/image 58.png'
+const ConstForm=()=>{
+    return(
+        <>
+       
       {/* Header Section */}
-      <div className="bg-purple-50 py-12 text-center px-4 ">
+      <div className="bg-[#FEFEFE] py-12 text-center px-4 ">
         <span className="bg-purple-100 text-purple-700 text-xs font-semibold px-3 py-1 rounded-full">
           CONTACT
         </span>
-        <h1 className="text-4xl text-[#42307D] font-bold my-3">Want to get in touch?</h1>
+        <h1 className="text-4xl text-[#42307D] font-bold my-3">Request a Consultation</h1>
         <p className="text-purple-500 mt-4 text-lg">
           We are always open to meeting new and interesting folks who want to
           join us on this journey.
@@ -21,12 +19,12 @@ function Contact() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap- items-center m-20">
         {/* Image Section */}
         <div className="flex justify-center">
-          {/* <img
+           <img
             src={bg}
             alt="Contact Graphic"
-            className=" rounded-lg shadow-lg"
-          /> */}
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4112.598944026469!2d78.0069689760849!3d30.312342505827168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39092be94375e729%3A0xc160311fe8cb82d6!2sNovaNectar%20Services%20Pvt.%20Ltd.!5e1!3m2!1sen!2sin!4v1738830215330!5m2!1sen!2sin" width="600" height="550" allowFullscreen="" loading="fast" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            className=" rounded-lg "
+          /> 
+          
         </div>
 
         {/* Form Section */}
@@ -135,11 +133,8 @@ function Contact() {
         </div>
         </div>
       </div>
-    
-    <Cont5></Cont5>
-    
-    </>
-  );
+     
+        </>
+    )
 }
-
-export default Contact;
+export default ConstForm;

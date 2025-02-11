@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className=" w-full ">
       {/* Footer Grid Section */}
-      <div className=" footer grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-30 p-6 sm:p-10  mx-20">
+      <div className=" footer grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-30 p-6 gap-5  mx-20">
         
         {/* First Section (Logo & Social Icons) */}
         <div className="first">
@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
 
         {/* Fourth Section (Contact) */}
-        <div className="fourth">
+        <div className="fourth ">
           <ul>
             <p className="font-bold text-blue-500 hover:text-blue-700 mb-2">CONTACT</p>
             <li className="text-gray-600 mb-1 flex items-center">

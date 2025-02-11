@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FaMinusCircle, FaPlusCircle } from "react-icons/fa";
 import groupImage from '../../assets/products/Avatar group.png';
+import Cont6B from "./cont6-B";
 
 
 const Cont6 = () => {
@@ -64,13 +65,9 @@ const Cont6 = () => {
            <p className="text-sm text-gray-600">Can't find the answer you're looking for? Please chat to our friendly team.
            </p>
        </div>
-       <div className="mt-8 background rounded-2xl relative">
-         <h1 className="font-medium text-4xl  text-white absolute top-15 left-100
-         " >Subscribe to Our newsletter</h1>
-         <input type="text" placeholder="First Name" className=" text-white w-100 border border-white outline-0 rounded m-1 p-2 "/>
-         <input type="email" placeholder="Email address" className="text-white w-100 border border-white outline-0 rounded m-3 p-2 "/>
-         <button className="w-40 bg-black text-white rounded m-2 p-2 cursor-pointer">Subscribe Now</button>
-       </div>
+
+       
+
     </div>
   ); 
 };

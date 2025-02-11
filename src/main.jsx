@@ -13,6 +13,8 @@ import Services from './componentes/services'
 import Blog from './componentes/blog'
 import Employes from './componentes/employe'
 import Career from './componentes/carrer'
+import Fresher from './componentes/fresher'
+
 
 
 const router = createBrowserRouter([
@@ -27,7 +29,8 @@ const router = createBrowserRouter([
     {path:'/services', element: <Services/>},
     {path :'/blog', element: <Blog/>},
     {path:'/employes', element:<Employes/>},
-    {path: '/carrers', element: <Career/>}
+    {path: '/carrers', element: <Career/>},
+    {path:'/fresher', element: <Fresher/>}
 
 
 

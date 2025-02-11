@@ -131,6 +131,7 @@ const Navbar = () => {
             >
               Home
             </NavLink>
+
             <NavLink
               to="/services"
               className={({ isActive }) =>
@@ -141,6 +142,7 @@ const Navbar = () => {
             >
               Service
             </NavLink>
+
             <NavLink
               to="/job"
               className={({ isActive }) =>
@@ -151,6 +153,7 @@ const Navbar = () => {
             >
               Job
             </NavLink>
+
             <NavLink
               to="/employes"
               className={({ isActive }) =>
@@ -161,16 +164,18 @@ const Navbar = () => {
             >
               Employes
             </NavLink>
+
             <NavLink
-              to="/freelancers"
+              to="/fresher"
               className={({ isActive }) =>
                 isActive
                   ? 'text-red-600 px-3 py-2 rounded-md text-sm font-medium'
                   : 'hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'
               }
             >
-              Freelancers
+              Fresher
             </NavLink>
+
             <NavLink
               to="/about"
               className={({ isActive }) =>
@@ -181,6 +186,7 @@ const Navbar = () => {
             >
               About
             </NavLink>
+
             <NavLink
               to="/blog"
               className={({ isActive }) =>
@@ -191,8 +197,9 @@ const Navbar = () => {
             >
               Blog
             </NavLink>
+
             <NavLink
-              to="/careers"
+              to="/carrers"
               className={({ isActive }) =>
                 isActive
                   ? 'text-red-600 px-3 py-2 rounded-md text-sm font-medium'
@@ -201,6 +208,7 @@ const Navbar = () => {
             >
               Careers
             </NavLink>
+
             <NavLink
               to="/contact"
               className={({ isActive }) =>
@@ -222,63 +230,107 @@ const Navbar = () => {
             <NavLink
               to="/"
               onClick={() => setIsMobileMenuOpen(false)}
-              className="block text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
+              className={({ isActive }) =>
+                isActive
+                  ? 'text-black px-3 py-2 rounded-md text-sm font-medium  block'
+                  : 'hover:bg-gray-300 hover:text-white text-gray-300 px-3 py-2 rounded-md text-sm font-medium block '
+              }
             >
               Home
             </NavLink>
+
             <NavLink
               to="/services"
               onClick={() => setIsMobileMenuOpen(false)}
-              className="block text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
+              className={({ isActive }) =>
+                isActive
+                  ? 'text-black px-3 py-2 rounded-md text-sm font-medium  block'
+                  : 'hover:bg-gray-300 hover:text-white text-gray-300 px-3 py-2 rounded-md text-sm font-medium block '
+              }
             >
               Service
             </NavLink>
+
             <NavLink
               to="/job"
               onClick={() => setIsMobileMenuOpen(false)}
-              className="block text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
+              className={({ isActive }) =>
+                isActive
+                  ? 'text-black px-3 py-2 rounded-md text-sm font-medium  block'
+                  : 'hover:bg-gray-300 hover:text-white text-gray-300 px-3 py-2 rounded-md text-sm font-medium block '
+              }
             >
               Job
             </NavLink>
+
             <NavLink
               to="/employes"
               onClick={() => setIsMobileMenuOpen(false)}
-              className="block text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
+              className={({ isActive }) =>
+                isActive
+                  ? 'text-black px-3 py-2 rounded-md text-sm font-medium  block'
+                  : 'hover:bg-gray-300 hover:text-white text-gray-300 px-3 py-2 rounded-md text-sm font-medium block '
+              }
             >
               Employes
             </NavLink>
+
             <NavLink
-              to="/freelancers"
+              to="/fresher"
               onClick={() => setIsMobileMenuOpen(false)}
-              className="block text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
+              className={({ isActive }) =>
+                isActive
+                  ? 'text-black px-3 py-2 rounded-md text-sm font-medium  block'
+                  : 'hover:bg-gray-300 hover:text-white text-gray-300 px-3 py-2 rounded-md text-sm font-medium block '
+              }
             >
-              Freelancers
+              Fresher
             </NavLink>
+
             <NavLink
               to="/about"
               onClick={() => setIsMobileMenuOpen(false)}
-              className="block text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
+              className={({ isActive }) =>
+                isActive
+                  ? 'text-black px-3 py-2 rounded-md text-sm font-medium  block'
+                  : 'hover:bg-gray-300 hover:text-white text-gray-300 px-3 py-2 rounded-md text-sm font-medium block '
+              }
             >
               About
             </NavLink>
+
             <NavLink
               to="/blog"
               onClick={() => setIsMobileMenuOpen(false)}
-              className="block text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
+              className={({ isActive }) =>
+                isActive
+                  ? 'text-black px-3 py-2 rounded-md text-sm font-medium  block'
+                  : 'hover:bg-gray-300 hover:text-white text-gray-300 px-3 py-2 rounded-md text-sm font-medium block '
+              }
             >
               Blog
             </NavLink>
+
             <NavLink
-              to="/careers"
+              to="/carrers"
               onClick={() => setIsMobileMenuOpen(false)}
-              className="block text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
+              className={({ isActive }) =>
+                isActive
+                  ? 'text-black px-3 py-2 rounded-md text-sm font-medium  block'
+                  : 'hover:bg-gray-300 hover:text-white text-gray-300 px-3 py-2 rounded-md text-sm font-medium block '
+              }
             >
               Careers
             </NavLink>
+
             <NavLink
               to="/contact"
               onClick={() => setIsMobileMenuOpen(false)}
-              className="block text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
+              className={({ isActive }) =>
+                isActive
+                  ? 'text-black px-3 py-2 rounded-md text-sm font-medium  block'
+                  : 'hover:bg-gray-300 hover:text-white text-gray-300 px-3 py-2 rounded-md text-sm font-medium block '
+              }
             >
               Contact
             </NavLink>
